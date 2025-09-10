@@ -145,4 +145,5 @@ df1
 <img width="786" height="549" alt="image" src="https://github.com/user-attachments/assets/c22fb912-c213-411f-b517-5e7060fd097f" />
 
 # Result:
-The given data has been successfully read, cleaned by handling duplicates and missing values, and saved to a new file named cleaned_data.csv.
+## Summary:
+When I first looked at the dataset, it was a mess—missing values, duplicates, and some weird numbers that didn’t make sense. I started by checking it out in Jupyter Notebook to see what I was dealing with. For missing text, I just put “Unknown,” and for numbers, I filled in the median so it didn’t get too crazy. Then I removed duplicates and fixed the data types that were off. I also checked for outliers using IQR and Z-scores and got rid of the really extreme ones. By the time I finished, the dataset was clean, consistent, and ready to use. Honestly, going through it step by step made me realize how important cleaning is—you can’t do any proper analysis without a solid, reliable dataset.
